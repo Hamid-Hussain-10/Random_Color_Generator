@@ -1,0 +1,25 @@
+body {
+  background-color: #6ba32b;
+  padding: 16px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  height: 100vh;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 20vh;
+  border: 1px solid rgb(6, 6, 72);
+  border-radius: 10px;
+  padding: 20px;
+}
